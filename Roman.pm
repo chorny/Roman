@@ -22,9 +22,13 @@ notation between Roman and Arabic.
 Domain of valid Roman numerals is limited to less than 4000, since
 proper Roman digits for the rest are not available in ASCII.
 
+=head1 CHANGES
+
+1997/09/03 Author's address is now <ozawa@aisoft.co.jp>
+
 =head1 AUTHOR
 
-OZAWA Sakuro <ozawa@prince.pe.u-tokyo.ac.jp>
+OZAWA Sakuro <ozawa@aisoft.co.jp>
 
 =head1 COPYRIGHT
 
@@ -34,7 +38,7 @@ same terms as Perl itself.
 
 =cut
 
-$RCS = '$Id: Roman.pm,v 1.1 1995/07/18 08:47:19 ozawa Exp $';
+$RCS = '$Id: Roman.pm,v 1.2 1997/09/03 01:35:23 ozawa Exp $';
 
 require Exporter;
 @ISA = qw(Exporter);

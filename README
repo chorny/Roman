@@ -1,4 +1,4 @@
-Roman.pm version 1.0
+Roman.pm version 1.1
 
 NAME
      Roman - Perl module for conversion between Roman and Arabic
@@ -23,8 +23,11 @@ BUGS
      since proper Roman digits for the rest are not available in
      ASCII.
 
+CHANGES
+     1997/09/03 Author's address is now <ozawa@aisoft.co.jp>
+
 AUTHOR
-     OZAWA Sakuro <ozawa@prince.pe.u-tokyo.ac.jp>
+     OZAWA Sakuro <ozawa@aisoft.co.jp>
 
 COPYRIGHT
      Copyright (c) 1995 OZAWA Sakuro.  All rights reserved.  This
