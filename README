@@ -1,0 +1,73 @@
+Roman.pm version 1.0
+
+NAME
+     Roman - Perl module for conversion between Roman and Arabic
+     numerals.
+
+SYNOPSIS
+             use Roman;
+
+             $arabic = arabic($roman) if isroman($roman);
+             $roman = Roman($arabic);
+             $roman = roman($arabic);
+
+DESCRIPTION
+     This package provides some functions which help conversion
+     of numeric notation between Roman and Arabic.
+
+INSTALLATION
+     Just copy Roman.pm into your perl module path.
+
+BUGS
+     Domain of valid Roman numerals is limited to less than 4000,
+     since proper Roman digits for the rest are not available in
+     ASCII.
+
+AUTHOR
+     OZAWA Sakuro <ozawa@prince.pe.u-tokyo.ac.jp>
+
+COPYRIGHT
+     Copyright (c) 1995 OZAWA Sakuro.  All rights reserved.  This
+     program is free software; you can redistribute it and/or
+     modify it under the same terms as Perl itself.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sun Release 4.1           Last change:                          1
+
+
+
+
+DESCRIPTION
+
+This package provides some functions which help conversion of numeric
+notation between Roman and Arabic.
+
+
+INSTALLATION
+
+Simply copy Roman.pm into your perl module path.
+
+AUTHOR
+
+OZAWA Sakuro <ozawa@prince.pe.u-tokyo.ac.jp>
