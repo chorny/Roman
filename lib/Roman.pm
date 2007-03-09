@@ -3,7 +3,7 @@ package Roman;
 use 5.6.0;
 use warnings;
 use strict;
-our $VERSION='1.10_01';
+our $VERSION='1.20';
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ Roman - Perl module for conversion between Roman and Arabic numerals.
 
 =head1 VERSION
 
-Version 1.10_01
+Version 1.20
 
 =cut
 
