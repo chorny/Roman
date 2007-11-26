@@ -1,9 +1,9 @@
 package Roman;
 
-use 5.6.0;
-use warnings;
+use 5.006;
 use strict;
-our $VERSION='1.20';
+use warnings;
+our $VERSION='1.21';
 
 =head1 NAME
 
@@ -99,8 +99,8 @@ same terms as Perl itself.
 
 =cut
 
-require Exporter;
-our @ISA = qw(Exporter);
+use Exporter 'import';
+#our @ISA = qw(Exporter);
 our @EXPORT = qw(isroman arabic Roman roman);
 
 our %roman2arabic = qw(I 1 V 5 X 10 L 50 C 100 D 500 M 1000);

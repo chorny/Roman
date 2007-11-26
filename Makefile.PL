@@ -1,4 +1,4 @@
-use 5.6.0;
+use 5.006;
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
@@ -12,7 +12,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Test::More' => 0,
     },
-    ($ExtUtils::MakeMaker::VERSION ge '6.30_00'? 
+    ($ExtUtils::MakeMaker::VERSION gt '6.30'? 
      ('LICENSE'		=> 'perl', ) : ()),
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Roman-*' },

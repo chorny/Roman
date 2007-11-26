@@ -1,12 +1,18 @@
 Revision history for Roman
 
-1.00    01 Sep 1995
+1.21  26 Nov 2007
+        Requires 5.006 instead of 5.6.0.
+        Do not subclass Exporter
 
-1.10    03 Sep 1997
-        Author's address is now <ozawa at aisoft.co.jp>
+1.20  10 Mar 2007
+        Same as 1.10_01
 
 1.10_01  06 Mar 2007
         Rewrite by Alexandr Ciornii
 
-1.20  10 Mar 2007
-        Same as 1.10_01
+1.10    03 Sep 1997
+        Author's address is now <ozawa at aisoft.co.jp>
+
+1.00    01 Sep 1995
+
+
