@@ -1,5 +1,8 @@
 Revision history for Roman
 
+1.22  20 Dec 2007, Perl 20th birthday version
+        Require a new version of Exporter
+
 1.21  26 Nov 2007
         Requires 5.006 instead of 5.6.0.
         Do not subclass Exporter

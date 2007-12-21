@@ -11,6 +11,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+        'Exporter' => 5.57,
     },
     ($ExtUtils::MakeMaker::VERSION gt '6.30'? 
      ('LICENSE'		=> 'perl', ) : ()),
