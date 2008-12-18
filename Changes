@@ -1,5 +1,8 @@
 Revision history for Roman
 
+1.23  18 Dec 2008, Perl 21th birthday version
+        Minimum Perl version required in META.yml
+
 1.22  20 Dec 2007, Perl 20th birthday version
         Require a new version of Exporter
 

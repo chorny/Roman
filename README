@@ -1,4 +1,4 @@
-Roman.pm version 1.21
+Roman.pm version 1.23
 
 NAME
      Roman - Perl module for conversion between Roman and Arabic
@@ -54,7 +54,7 @@ You can also look for information at:
 COPYRIGHT AND LICENCE
 
 Copyright (c) 1995-1997 OZAWA Sakuro.
-Copyright (C) 2007 Alexandr Ciornii
+Copyright (C) 2007-2008 Alexandr Ciornii
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
