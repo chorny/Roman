@@ -17,6 +17,11 @@ WriteMakefile(
      ('LICENSE'		=> 'perl', ) : ()),
     ($ExtUtils::MakeMaker::VERSION ge '6.48'? 
      ('MIN_PERL_VERSION' => 5.006,) : ()),
+    META_MERGE => {
+        resources => {
+            repository => 'http://github.com/chorny/Roman',
+        },
+    },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Roman-*' },
 );
