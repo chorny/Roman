@@ -10,8 +10,10 @@ WriteMakefile1(
     ABSTRACT_FROM       => 'lib/Roman.pm',
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
         'Exporter' => 5.57,
+    },
+    BUILD_REQUIRES => {
+        'Test::More' => 0,
     },
     ($ExtUtils::MakeMaker::VERSION ge '6.31'? 
      ('LICENSE'		=> 'perl', ) : ()),
@@ -46,5 +48,7 @@ sub WriteMakefile1 { #Written by Alexandr Ciornii
         delete $params{LICENSE} if $eumm_version < 6.31;
         delete $params{AUTHOR} if $] < 5.005;
         delete $params{ABSTRACT_FROM} if $] < 5.005;
+        delete $params{BINARY_LOCATION} if $] < 5.005;
+
         WriteMakefile(%params);
 }
