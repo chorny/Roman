@@ -21,6 +21,7 @@ WriteMakefile1(
         resources => {
             repository => 'http://github.com/chorny/Roman',
         },
+        keywords => ['roman numbers',],
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Roman-*' },
