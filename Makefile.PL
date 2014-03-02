@@ -18,8 +18,13 @@ WriteMakefile1(
     'LICENSE'		=> 'perl',
     'MIN_PERL_VERSION' => 5.006,
     META_MERGE => {
+        'meta-spec' => { version => 2 },
         resources => {
-            repository => 'http://github.com/chorny/Roman',
+            repository => {
+                type => 'git',
+                url  => 'https://github.com/chorny/Roman.git',
+                web  => 'https://github.com/chorny/Roman',
+            },
         },
         keywords => ['roman numbers',],
     },
