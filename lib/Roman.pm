@@ -58,6 +58,19 @@ L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Roman>.
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
 
+=head1 SEE ALSO
+
+L<Text::Roman> - also handles conversion between Arabic and Roman numerals,
+but can handle a larger range than this module.
+
+L<Math::Roman> -
+another module for converting between Arabic and Roman numerals.
+
+L<Convert::Number::Roman> - handles the same conversion, but also lets
+you specify upper or lower case.
+
+L<Roman::Unicode> - make Roman numerals, using Unicode characters.
+
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
