@@ -2,6 +2,7 @@ Revision history for Perl module Roman
 
 1.24 2015-02-?? CHORNY
     - Reformatted this file as per CPAN::Changes::Spec
+    - Improved wording of the abstract
 
 1.23 2008-12-18 CHORNY
     - Minimum Perl version required in META.yml

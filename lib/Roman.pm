@@ -3,15 +3,15 @@ package Roman;
 use 5.006;
 use strict;
 use warnings;
-our $VERSION='1.23';
+our $VERSION='1.24';
 
 =head1 NAME
 
-Roman - Perl module for conversion between Roman and Arabic numerals.
+Roman - functions for converting between Roman and Arabic numerals
 
 =head1 VERSION
 
-Version 1.20
+Version 1.24
 
 =cut
 
