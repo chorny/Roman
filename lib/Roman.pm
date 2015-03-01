@@ -3,15 +3,15 @@ package Roman;
 use 5.006;
 use strict;
 use warnings;
-our $VERSION='1.23';
+our $VERSION='1.24';
 
 =head1 NAME
 
-Roman - Perl module for conversion between Roman and Arabic numerals.
+Roman - functions for converting between Roman and Arabic numerals
 
 =head1 VERSION
 
-Version 1.20
+Version 1.24
 
 =cut
 
@@ -57,6 +57,19 @@ C<bug-roman /AT/ rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Roman>.
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
+
+=head1 SEE ALSO
+
+L<Text::Roman> - also handles conversion between Arabic and Roman numerals,
+but can handle a larger range than this module.
+
+L<Math::Roman> -
+another module for converting between Arabic and Roman numerals.
+
+L<Convert::Number::Roman> - handles the same conversion, but also lets
+you specify upper or lower case.
+
+L<Roman::Unicode> - make Roman numerals, using Unicode characters.
 
 =head1 SUPPORT
 

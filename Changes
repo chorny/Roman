@@ -1,24 +1,32 @@
-Revision history for Roman
+Revision history for Perl module Roman
 
-1.23  18 Dec 2008, Perl 21th birthday version
-        Minimum Perl version required in META.yml
+1.24 2015-02-?? CHORNY
+    - Added SEE ALSO section with links to similar modules.
+    - Reformatted this file as per CPAN::Changes::Spec
+    - Improved wording of the abstract
 
-1.22  20 Dec 2007, Perl 20th birthday version
-        Require a new version of Exporter
+1.23 2008-12-18 CHORNY
+    - Minimum Perl version required in META.yml
+    - Perl 21st birthday version
 
-1.21  26 Nov 2007
-        Requires 5.006 instead of 5.6.0.
-        Do not subclass Exporter
+1.22 2007-12-21 CHORNY
+    - Require a new version of Exporter
+    - Perl 20th birthday version
 
-1.20  10 Mar 2007
-        Same as 1.10_01
+1.21 2007-11-26 CHORNY
+    - Requires 5.006 instead of 5.6.0.
+    - Do not subclass Exporter
 
-1.10_01  06 Mar 2007
-        Rewrite by Alexandr Ciornii
+1.20 2007-03-09 CHORNY
+    - Same as 1.10_01
 
-1.10    03 Sep 1997
-        Author's address is now <ozawa at aisoft.co.jp>
+1.10_01 2007-03-06 CHORNY
+    - Rewrite by Alexandr Ciornii
 
-1.00    01 Sep 1995
+1.1 1997-09-03 OZAWA
+    - Author's address is now <ozawa at aisoft.co.jp>
+
+1.0 1995-09-01 OZAWA
+    - First version released to CPAN
 
 
