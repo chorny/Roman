@@ -23,6 +23,12 @@ WriteMakefile1(
         },
         keywords => ['roman numbers',],
     },
+    $^O =~/win/i ? (
+        dist => {
+            TAR      => 'ptar',
+            TARFLAGS => '-c -C -f',
+        },
+    ) : (),
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Roman-*' },
 );
