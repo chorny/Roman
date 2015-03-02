@@ -29,7 +29,6 @@ WriteMakefile1(
             TARFLAGS => '-c -C -f',
         },
     ) : (),
-    dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Roman-*' },
 );
 

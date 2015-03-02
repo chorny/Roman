@@ -1,6 +1,6 @@
 Revision history for Perl module Roman
 
-1.24 2015-02-?? CHORNY
+1.24 2015-03-01 CHORNY
     - Added SEE ALSO section with links to similar modules.
     - Reformatted this file as per CPAN::Changes::Spec
     - Improved wording of the abstract
